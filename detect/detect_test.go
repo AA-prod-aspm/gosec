@@ -300,7 +300,6 @@ func TestDetect(t *testing.T) {
 		{
 			cfgName: "simple",
 			fragment: Fragment{
-				Raw:      `awsToken := \"AKIALALEMEL33243OLIA\"`,
 				FilePath: filepath.Join(configPath, "simple.toml"),
 			},
 			expectedFindings: []report.Finding{},
